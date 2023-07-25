@@ -59,6 +59,6 @@ stages:
         azureSubscription: 'Pay-As-You-Go(e01022a2-ce7b-46a5-82f0-b5efabc29fb2)'
         appType: 'webApp'
         WebAppName: 'YAMLMultistage'
-        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+        packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
 
 
